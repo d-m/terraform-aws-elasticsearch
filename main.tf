@@ -1,3 +1,4 @@
+# this is cool
 locals {
   elasticsearch_enabled = module.this.enabled && var.aws_service_type == "elasticsearch" ? true : false
   opensearch_enabled    = module.this.enabled && var.aws_service_type == "opensearch" ? true : false
